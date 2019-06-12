@@ -131,6 +131,12 @@ const INITIAL_TOKENS_CONTEXT = {
       [DECIMALS]: 18,
       [EXCHANGE_ADDRESS]: '0xF173214C720f58E03e194085B1DB28B50aCDeeaD'
     },
+    '0x763Fa6806e1acf68130D2D0f0df754C93cC546B2': {
+      [NAME]: 'Lition Token',
+      [SYMBOL]: 'LIT',
+      [DECIMALS]: 18,
+      [EXCHANGE_ADDRESS]: '0x8f814b4f0C18968a6D7aada420eCEE74A33ECD3f'
+    },
     '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD': {
       [NAME]: 'LoopringCoin V2',
       [SYMBOL]: 'LRC',
