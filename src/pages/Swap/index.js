@@ -127,7 +127,7 @@ const initialSwapState = {
   dependentValue: '', // this is a calculated number
   independentField: INPUT,
   inputCurrency: 'ETH',
-  outputCurrency: ''
+  outputCurrency: '0x763Fa6806e1acf68130D2D0f0df754C93cC546B2'
 }
 
 function swapStateReducer(state, action) {

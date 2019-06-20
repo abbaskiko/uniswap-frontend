@@ -40,7 +40,7 @@ function reducer(state, { type, payload }) {
 
 export default function Provider({ children }) {
   const [state, dispatch] = useReducer(reducer, {
-    [SHOW_BETA_MESSAGE]: true,
+    [SHOW_BETA_MESSAGE]: false,
     [BLOCK_NUMBERS]: {}
   })
 

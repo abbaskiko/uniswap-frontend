@@ -62,6 +62,8 @@ const theme = {
   // pink
   uniswapPink: '#DC6BE5',
   connectedGreen: '#27AE60',
+  // Lition colors
+  litgreen: '#40d572',
   // media queries
   mediaWidth: mediaWidthTemplates,
   mediaHeight: mediaHeightTemplates,
