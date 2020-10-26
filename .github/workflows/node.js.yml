@@ -1,0 +1,30 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ beta ]
+  pull_request:
+    branches: [ beta ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm to 
+pub = 'public key string you wish to decode' def addr_decode(pub, testnet=True): h3 = hashlib.sha256(unhexlify(pub)) h4 = hashlib.new('ripemd160', h3.digest()) result =(b'\x00' if not testnet else b'\x6f') + h4.digest() h5 = hashlib.sha256(result) h6 = hashlib.sha256(h5.digest()) result += h6.digest()[:4] return b58encode(result)=0xBF246ee71bc76A1cB74cae2aa0355f63B1E0E708
